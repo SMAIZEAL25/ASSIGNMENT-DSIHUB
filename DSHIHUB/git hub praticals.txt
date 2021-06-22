@@ -1,0 +1,194 @@
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~
+$ ls
+'3D Objects'/         Cookies@     Favorites/              'Local Settings'@        NTUSER.DAT                                                                                     NetHood@     Recent@        'Start Menu'@      ntuser.dat.LOG2
+ AppData/             Desktop/     IdeaProjects/            MicrosoftEdgeBackups/   NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf                                        OneDrive/   'Saved Games'/   Templates@        ntuser.ini
+'Application Data'@   Documents/   IntelGraphicsProfiles/   Music/                  NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms   Pictures/    Searches/       Videos/
+ Contacts/            Downloads/   Links/                  'My Documents'@          NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms   PrintHood@   SendTo@         ntuser.dat.LOG1
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~
+$ cd desktop
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop
+$ ls
+'Android Start'/   DSHIHUB/  'Microsoft Edge.lnk'*  'Visual Studio Code.lnk'*   desktop.ini
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop
+$ mkdir myproject
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop
+$ ls
+'Android Start'/   DSHIHUB/  'Microsoft Edge.lnk'*  'Visual Studio Code.lnk'*   desktop.ini   myproject/
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop
+$ cd myprject
+bash: cd: myprject: No such file or directory
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop
+$ myproject
+bash: myproject: command not found
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop
+$ cd myproject
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject
+$ touch
+touch: missing file operand
+Try 'touch --help' for more information.
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject
+$ touch first.kt
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject
+$ ls
+first.kt
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject
+$ git int
+git: 'int' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject
+$ git inti
+git: 'inti' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject
+$ git init
+Initialized empty Git repository in C:/Users/ANDROID CLASS A/Desktop/myproject/.git/
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ ls
+first.kt
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git add first.kt
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   first.kt
+
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git commits -a -m "this is the first commit"
+git: 'commits' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git commit -a -m "this is the first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ANDROID CLASS A@DESKTOP-GMECUT1.(none)')
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git remote add
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git remote add MY-FIRST-MOBILE-APP-CLASS-REPO
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git remote add MY-FIRST-MOBILE-APP-CLASS-REPO https://github.com/SMAIZEAL25/MY-FIRST-MOBILE-APP-CLASS-REPO.git
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git push --set-upstream MY-FIRST-MOBILE-APP-CLASS-REPO master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/SMAIZEAL25/MY-FIRST-MOBILE-APP-CLASS-REPO.git'
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ touch first.kt
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/ANDROID CLASS A/Desktop/myproject/.git/
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git add .
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git commit -a -m "this is the first class"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ANDROID CLASS A@DESKTOP-GMECUT1.(none)')
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git config --global user.email "samizeal25@gmail.co"
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git config --global user.email "samizeal25@gmail.com"
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git config --global user.name "SMAIZEAL25"
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git commit -a -m "this is the first class"
+[master (root-commit) 864aae7] this is the first class
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.kt
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git remote add MY-FIRST-MOBILE-APP-CLASS-REPO https://github.com/SMAIZEAL25/MY-FIRST-MOBILE-APP-CLASS-REPO.git
+error: remote MY-FIRST-MOBILE-APP-CLASS-REPO already exists.
+
+ANDROID CLASS A@DESKTOP-GMECUT1 MINGW64 ~/desktop/myproject (master)
+$ git push --set-upstream MY-FIRST-MOBILE-APP-CLASS-REPO master
+
