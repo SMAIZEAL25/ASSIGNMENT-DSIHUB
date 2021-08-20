@@ -1,0 +1,180 @@
+//import kotlin.reflect.jvm.internal.impl.descriptors.deserialization.AdditionalClassPartsProvider
+//
+//fun main(){
+//
+//    println("Hello everybody")
+//    println("My name is samuel")
+//    //COMMENT******* VARIABLE DECLEARATION
+//    var name : String = "This is my frist MOBILE APP DEVELOPMENT class"
+//    println(name)
+//    // ANOTHER VARIABLE DECLEARATION
+//    var log : String =  "Samuel"
+//    println(name + " log ")
+//    println(log)
+//    // INETRGER VARIBALE DECLEARATION
+//         var int_main : Int  = 5000
+//        var int_sub : Int = 10000
+//        var int = int_main + int_sub
+//        println ("The sum of " + int_main + " and " + int_sub + " is " + int)
+//
+//
+//    /* COMMENT *********** VARIBLE TYPE FLOAT>>>>>>>*/
+//                var salary : Float = 4533333.45588F
+//                var net_income : Double = 1541215.214544
+//                println(salary)
+//    /* COMMMENT********** VARIBALE DECLEARATION CHAR>>>>>>>>>>>*/
+//                 var first : Char = 'J'
+//                println(first)
+//    /* COMMMENT********** VARIBALE DECLEARATION BOOLEAN>>>>>>>>>>>*/
+//                var isoldenough : Boolean =true
+//                var canEnter : Boolean = false
+//                println(isoldenough)
+//                println(canEnter)
+//    // ARRAYS..............
+//    // ARRAYS HAS TO DO WITH STRING OPERATIONS.........
+//    // NOTE DOUBLE QOUTE // "" /// ARE NOT CHARACTERS THERE SRE JUST WAY WE SYMBOLISE STRING
+//            var fullname : String = "PAUL JACKSON"
+//            //var nooChars : Int = fullname.length
+//            //println(fullname.length)
+//            var mychar : Char = fullname.get(5)
+//    // argurment
+//    // function returning value and for function not returning any value
+//    //NEW WEEK CLASS AFTER THE SUBMISSION OF ASSIGNMENT
+//    ///// OPERATOR AND OPERANDS arithmetic
+//                var num1 : Int = 10
+//                var num2 : Int = 20
+//                var result: Int = num1 + num2
+//                println(result)
+//    // relational operators
+//                var numSb : Int = 50
+//                var numSb2 : Int = 600
+//                var Myboo: Boolean = numSb == numSb2
+//                println(Myboo)
+//    //pratical all the relational operators yourself
+//
+//
+//    /// Next is if statement or conditional statment  and if eles statment and eles if statemen//
+//
+//
+//    // loop and conditional statement
+//        var namesw: Array <String> = arrayOf("James", "Andrew", "Thomas")
+//        println (namesw [1])
+//        for (name in namesw) {
+//            println(name)
+//        }
+//        var names: Array <String> = arrayOf("James", "Andrew", "Thomas")
+//        println (names [1])
+//        for (name in names) {
+//            println(name)
+//        }
+//    // still loop
+//                fun main (){
+//                    var scores: Array <Int> = arrayOf(43, 56, 98, 89,89)
+//                    for(peeer in scores)
+//                        // note peeer is a variable in the loop it can be called anything
+//                        // interpolation is used with $ "DOLLAR SING" WHILE CONCATINATION JOIN TOGETHER INTERPOLATION PUT INSIDE
+//                        println("scoreS is : $peeer")
+//                }
+//                        // while looop
+//                        fun main (){
+//                            // while looop
+//                            // intializer
+//                            // exist condition
+//                            // while (exit codition using boolean)
+//                            // do something
+//                            // increment
+//                                var count: Int = 0
+//                                while (count < 10){
+//                                println(count)
+//                                count = count + 1 // or count++ increament or count-- decreament
+//                            }
+//                        }
+    // BREAK CONTINUE UNDER WHILE LOOP BREAK IS ALSO LIKE AN EXIT CONDITION
+//                    fun main (){
+//                        // break continue
+//                        var i : Int = 0
+//                        while (i < 10){
+//                            println(i)
+//                            i++
+//                            if (i >= 5){
+//                                break
+//                            }
+//                            }}
+//                    }
+        // CONTINUE STATEMENT ALLOWS SKIPD AND INTERATRION UNDER LOOP
+//            fun main(){
+//                var fruits: Array<String> = arrayOf("Orange", "Mangoe", "Apple", "Grape",)
+//                for (fruit in fruits){
+//                    if (fruit == "Mangoe"){
+//                        continue
+//                    }
+//                        println(fruit)
+//                }
+//            }
+        // CONDITIONAL EXPRESSION USING WITH THE WHEN KEYWORD
+//                fun main(){
+//                    // conditional expression
+//                    // when
+//                }
+        // object oriented programming
+//        fun  main(){
+//    // object
+//            var myUser: User = User()
+//            myUser.name = "John"
+//            myUser.age = 100
+//
+////            println(myUser.name)
+////            println(myUser.age)
+//                println("John age is ${myUser.age}")
+//        }
+//            class User{ //classes
+//                    var name: String = ""
+//                    var age: Int = 0
+//                    }
+//
+
+//
+//
+//
+//            fun main (){
+//                var Checkpassword: Array<String> = arrayOf("john", "Welldone", "Cominghome", "Cominghomesoon")
+//            }
+//                fun Checkpassword (number: Array<String>){
+//                    for (Name in Checkpassword()){
+//                        if (Checkpassword.lenght <= 9)
+//                            return (true)
+//                        else{
+//                            return (false)
+//                        }
+//                            println()
+//                    }
+//                }
+//        fun main(){
+//            var Anotherentence : String
+//            Anotherentence = "my car ${Mycar.model} ${yearofmon }"
+//        }
+//        class  Mycar (var model: String, var yearofmon:Int, var color: String
+//        )
+// class work
+                    fun main(){
+                            var lion:Animal = Animal()
+                            var chicken:Animal  = Animal()
+                            var tiger:Animal = Animal()
+
+                    }
+                        class Animal(){
+                            var name : String =""
+                            var age :Int = 0
+                            var species : String =""
+                        }
+                            fun eat (){
+
+                            }
+                            fun walk (){
+
+                            }
+                            fun sleep(){
+
+                            }
+                      
+        
